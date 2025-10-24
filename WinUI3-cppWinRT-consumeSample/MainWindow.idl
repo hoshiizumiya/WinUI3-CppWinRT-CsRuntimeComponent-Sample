@@ -1,0 +1,9 @@
+﻿namespace WinUI3_cppWinRT_consumeSample
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+
+    }
+}

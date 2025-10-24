@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WinUI3-cppWinRT-consumeSample/WinUI3-cppWinRT-consumeSample.vcxproj" Id="b4758144-bdc9-4743-abb4-035f341e8132">
+    <Deploy />
+  </Project>
+  <Project Path="WinUI3-Csharp-RuntimeComponent-Sample/WinUI3-Csharp-RuntimeComponent-Sample.csproj" Id="93b7886c-4fc0-42dc-bae7-71c6ec4a1d48" />
+</Solution>
