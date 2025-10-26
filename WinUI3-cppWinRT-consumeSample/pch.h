@@ -27,4 +27,5 @@
 
 // Projections for the C# WinRT component (headers are generated when the C++ project references the C# winmd)
 #include <winrt/WinUI3_Csharp_RuntimeComponent_Sample.h>
+#include <winrt/WinUI3_Csharp_RuntimeComponent_Sample.Models.h>
 #include <winrt/WinUI3_Csharp_RuntimeComponent_Sample.WinUI3_Csharp_RuntimeComponent_Sample_XamlTypeInfo.h>

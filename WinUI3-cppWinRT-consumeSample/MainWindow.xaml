@@ -11,6 +11,6 @@
     mc:Ignorable="d">
 
     <StackPanel>
-        <custom:CommunityUserControl x:Name="CommunityCard" />
+        <custom:CommunityUserControl x:Name="CommunityDataGrid" />
     </StackPanel>
 </Window>

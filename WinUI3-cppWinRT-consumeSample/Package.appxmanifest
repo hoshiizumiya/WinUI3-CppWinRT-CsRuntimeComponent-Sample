@@ -53,6 +53,7 @@
 		<Extension Category="windows.activatableClass.inProcessServer">
 			<InProcessServer>
 				<Path>WinRT.Host.dll</Path>
+				<ActivatableClass ActivatableClassId="WinUI3_Csharp_RuntimeComponent_Sample.Models" ThreadingModel="both" />
 				<ActivatableClass ActivatableClassId="WinUI3_Csharp_RuntimeComponent_Sample.CommunityUserControl" ThreadingModel="both" />
 				<ActivatableClass ActivatableClassId="WinUI3_Csharp_RuntimeComponent_Sample.WinUI3_Csharp_RuntimeComponent_Sample_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
 			</InProcessServer>

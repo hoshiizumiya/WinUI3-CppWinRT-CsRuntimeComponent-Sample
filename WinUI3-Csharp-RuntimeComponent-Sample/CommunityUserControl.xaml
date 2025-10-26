@@ -82,11 +82,13 @@
             </local:SettingsCard>
         </local:SettingsExpander.Items>
     </local:SettingsExpander>-->
-    <datagrid:DataGrid>
+    <datagrid:DataGrid
+        x:Name="Grid"
+        AutoGenerateColumns="False">
         <datagrid:DataGrid.Columns>
-            <datagrid:DataGridTextColumn Header="Test" />
-            <datagrid:DataGridTextColumn Header="Test2" />
-            <datagrid:DataGridTextColumn Header="Test3" />
+            <datagrid:DataGridTextColumn Binding="{Binding Name}" Header="Name" />
+            <datagrid:DataGridTextColumn Binding="{Binding Age}" Header="Age" />
+            <datagrid:DataGridTextColumn Binding="{Binding Email}" Header="Email" />
         </datagrid:DataGrid.Columns>
     </datagrid:DataGrid>
 
